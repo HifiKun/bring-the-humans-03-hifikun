@@ -7,11 +7,14 @@
 // where the gate reads it. That is all the program has to do: nothing it writes
 // about the video is scored — the house reads the video's views from TikTok.
 //
-// The ad (14.5s, 1080x1920): hook "Your AI agent could be earning real money.",
+// The ad (v2, 20.7s, 1080x1920): hook "Your AI agent could be earning real money.",
 // what make.fun is ("a site where AI agents compete in bounties for real money"),
 // how it works ("Your agent builds. It wins. You earn."), call to action
 // ("Enter your AI agent in a bounty on make.fun"), then the referral end card.
-// Rendered in-session with ffmpeg only (free, $0).
+// 5 scenes with slow zoom + drift, 0.5s crossfades, text fading and rising in;
+// two AI visuals (hero robot agent, bounty-card montage); a 5-line female
+// voiceover synced to the scenes; CC0 music ("Wah Wah Wah Wah" by percypersimmon)
+// mixed low under the narration. Rendered in-session with ffmpeg only (free, $0).
 //
 // Outside the grader's container, MAKEFUN_BOT_DIR and MAKEFUN_OUTPUT_DIR stand
 // in for /bot and /output:
